@@ -1,0 +1,112 @@
+{
+    "schema": [
+        [
+            {
+                "id": "orgName",
+                "label": "Organization Name",
+                "placeholder": "Enter organization name",
+                "type": "text"
+            },
+            {
+                "id": "website",
+                "label": "Organization Website (Optional)",
+                "placeholder": "Enter organization website url",
+                "type": "url"
+            }
+        ],
+        [
+            {
+                "id": "addressLine1",
+                "label": "Address Line 1",
+                "placeholder": "Enter organization address",
+                "type": "text"
+            },
+            {
+                "id": "addressLine2",
+                "label": "Address Line 2",
+                "placeholder": "Enter organization address",
+                "type": "text"
+            }
+        ],
+        [
+            {
+                "id": "city",
+                "label": "City",
+                "placeholder": "Enter organization city",
+                "type": "text"
+            },
+            {
+                "id": "provinceOrState",
+                "label": "Province/State",
+                "placeholder": "Enter organization province",
+                "type": "text"
+            }
+        ],
+        [
+            {
+                "id": "countryCode",
+                "label": "Country",
+                "placeholder": "Enter organization country",
+                "type": "text"
+            },
+            {
+                "id": "postalCode",
+                "label": "Postal Code",
+                "placeholder": "Enter organization postal code",
+                "type": "text"
+            }
+        ],
+        [
+            {
+                "id": "contactNumber",
+                "label": "Telephone Number",
+                "placeholder": "Enter organization contact",
+                "type": "tel"
+            },
+            {
+                "id": "fax",
+                "label": "FAX Number (Optional)",
+                "placeholder": "Enter organization fax",
+                "type": "tel"
+            }
+        ],
+        [
+            {
+                "id": "defaultLanguage",
+                "label": "Default Language",
+                "placeholder": "Enter organization language",
+                "type": "text"
+            },
+            {
+                "id": "defaultCurrency",
+                "label": "Default Currency",
+                "placeholder": "Enter organization currency",
+                "type": "text"
+            }
+        ],
+        [
+            {
+                "id": "email",
+                "label": "Organization Email",
+                "placeholder": "Enter organization email",
+                "type": "email"
+            },
+            {
+                "id": "activeStatus",
+                "label": "Travel Business Status",
+                "placeholder": "",
+                "type": "select",
+                "options": [
+                    {
+                        "value": 0,
+                        "label": "Inactive"
+                    },
+                    {
+                        "value": 1,
+                        "label": "Active"
+                    }
+                ]
+            }
+        ]
+    ]
+}
